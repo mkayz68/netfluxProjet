@@ -1,0 +1,62 @@
+nav
+{
+    position: fixed;
+    z-index: 100;
+}
+
+nav a
+{
+    color:#fff;
+}
+
+nav a:hover
+{
+    color:#fff;
+}
+
+.dropdown-menu.show
+{
+    background-color: black;
+    color: #fff;
+    border: 1px solid white;
+}
+
+.dropdown-header
+{
+    color: #fff;
+}
+
+.dropdown-item
+{
+    color: #fff;
+}
+
+form .btn
+{
+    color: white;
+    border: 1px solid white;
+}
+
+.SliderTexte
+{ 
+    position: absolute;
+    top: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 110px;
+    color: #fff;
+    text-align: center;
+    left: 23%;
+}
+
+.SliderTitre
+{
+    width: 35%;
+    position: absolute;
+    top: 75%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 110px;
+    color: #fff;
+    text-align: center;
+}
