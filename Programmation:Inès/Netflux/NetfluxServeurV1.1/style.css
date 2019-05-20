@@ -1,0 +1,109 @@
+/*=========HEADER==========*/
+
+nav
+{
+    z-index: 100;
+}
+
+form .btn
+{
+    color: white;
+    border: 1px solid white;
+}
+
+.sliderTitre
+{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top:5%;
+}
+
+.sliderTexte
+{ 
+    position: absolute;
+    top: 80%;
+    z-index: 10;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    left: 5%;
+}
+
+.TextList
+{
+    position: absolute;
+    top: 5%;
+    z-index: 10;
+}
+
+.border
+{
+    box-sizing: border-box;
+}
+
+#logo
+{
+    width: 120px;
+    height: 45px;
+    margin: 1% 0% 0% 50%;
+}
+
+/*======BARRE DE RECHERCHE======*/
+
+.autocompleteItems 
+{
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocompleteItems div 
+{
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocompleteItems div:hover 
+{
+    background-color: #e9e9e9;
+}
+
+.autocompleteActive 
+{
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+/*==============================*/
+
+/*===========FOOTER=============*/
+
+
+
+footer
+{
+    border: black solid 4px;
+    box-sizing: border-box;
+}
+
+#top
+{
+    float: right;
+    margin-right: 3%;
+    font-size: 40px;
+}
+
