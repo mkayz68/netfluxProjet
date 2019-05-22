@@ -152,7 +152,7 @@
                     }
                 );
 
-                //Execute une fonction lorsque l'on click sur dans le document 
+                //Execute une fonction lorsque l'on click sur le document 
                 document.addEventListener(
                     'click',
                     function(e)
